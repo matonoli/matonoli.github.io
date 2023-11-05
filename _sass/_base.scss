@@ -414,12 +414,12 @@ blockquote {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-theme-color);
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 7px;
   }
 
   a {
@@ -484,7 +484,7 @@ footer.sticky-bottom {
   h1 {
     color: var(--global-theme-color);
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 
@@ -517,7 +517,7 @@ footer.sticky-bottom {
   span {
     color: var(--global-theme-color);
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 
