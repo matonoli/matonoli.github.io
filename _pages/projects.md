@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: a portfolio of some of my work and creations.
-nav: true
+nav: false
 nav_order: 1
 display_categories: [physics] #[work, fun]
 horizontal: false

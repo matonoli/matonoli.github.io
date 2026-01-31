@@ -4,7 +4,7 @@ permalink: /people/
 title: about me
 description: #members of the lab or group
 nav: true
-nav_order: 4
+nav_order: 5
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -14,7 +14,7 @@ profiles:
     content: about_oliver.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Office K231</p>
-      <p>Professorsgatan 1</p>
-      <p>Lund, Sweden 221 00</p>
+      <p>Betlémský palác, Office 533</p>
+      <p>Husova 240/5</p>
+      <p>Prague 110 00, Czechia</p>
 ---

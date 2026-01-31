@@ -2,11 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
-nav_order: 5
+description:
+nav: true
+nav_order: 3
 ---
+I enjoy teaching and building practical, reusable tooling around data analysis.
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+At FNSPE CTU, I currently act as course responsible/lecturer for:
 
-Organize your courses by years, topics, or universities, however you like!
+- **Physics of collisions of nuclei** (Master’s level)
+- **Tools for simulation and data analysis** (Bachelor’s level)
+
+I also supervise a Bachelor’s student.
+
+This page is intentionally lightweight for now; I plan to expand it with syllabi, notes, and selected assignments.

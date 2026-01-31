@@ -29,6 +29,13 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Researcher
+      institution: FNSPE, Czech Technical University (CTU), Prague, Czech Republic
+      year: May 2024 - present
+      description:
+        - Funded through the CTU Global Postdoctoral Fellowship Program
+        - Research within the STAR collaboration with a focus on small systems, long-range correlations, and unfolding (including deep learning techniques)
+        - Continued scientific contributions within the ALICE collaboration
     - title: Researcher
       institution: ALICE experiment, CERN, Switzerland
       year: November 2018 - present
@@ -40,12 +47,13 @@
       year: April 2019 - present
       description:
         - Communicating the Swedish junior scientists' needs to the ALICE collaboration
-    - title: Teaching Assistant
-      institution: CTU, Prague / LU, Sweden
-      year: September 2016 - September 2022
+    - title: Teaching (course responsibility & instruction)
+      institution: Czech Technical University (CTU), Prague, Czech Republic
+      year: 2016 - present
       description:
-        - Teaching practical classes in Physics/Particle Physics
-        - At LU, also responsible for the class format and preparation
+        - Course responsible: Physics of collisions of nuclei (Master's level)
+        - Course responsible: Tools for simulation and data analysis (Bachelor's level)
+        - Supervision of a Bachelor’s student
     - title: Junior Researcher
       institution: STAR experiment, BNL, USA
       year: June 2016 - June 2021

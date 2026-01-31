@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Ing. Oliver Matonoha, PhD",
-    "title": "Researcher in Particle Physics (postdoc)",
-    "email": "oliver.matonoha@gmail.com",
+    "title": "Postdoctoral Researcher in Particle Physics",
+    "email": "oliver.matonoha@cvut.cz",
     "url": "https://matonoli.github.io",
-    "summary": "Researcher in physics, interested in open science, open knowledge, and AI.",
+    "summary": "Postdoctoral researcher in experimental particle physics. I did my PhD (and my first postdoc) at Lund University in Sweden and moved back to Prague in 2024. I work primarily within STAR and remain active in ALICE, with interests spanning small systems, novel observables, long-range correlations, and unfolding (including deep learning).",
     "publications": "180 citable publications, 2600+ citations, h-index 26. Main author of 8 publications. Published in journals such as Nature, Nature Physics, Physics Review Letters, European Physics Journal.",
     "location": {
-      "address": "a",
-      "postalCode": "a",
-      "city": "Malmö",
-      "countryCode": "SE",
-      "region": "a"
+      "address": "",
+      "postalCode": "",
+      "city": "Prague",
+      "countryCode": "CZ",
+      "region": ""
     },
     "profiles": [
       {
@@ -22,6 +22,13 @@
     ]
   },
   "work": [
+    {
+      "name": "FNSPE, Czech Technical University (CTU), Prague, Czech Republic",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Postdoc funded through the CTU Global Postdoctoral Fellowship Program. Research primarily within the STAR collaboration (small systems, long-range correlations, and unfolding including deep learning techniques), with continued contributions to ALICE."
+    },
     {
       "name": "ALICE experiment, CERN, Switzerland",
       "position": "Researcher",
@@ -42,6 +49,13 @@
       "startDate": "2016-09-01",
       "endDate": "2022-09-01",
       "summary": "Teaching practical classes in Physics/Particle Physics. At Lund University, also responsible for class format and preparation."
+    },
+    {
+      "name": "Czech Technical University (CTU), Prague, Czech Republic",
+      "position": "Course responsible & instructor",
+      "startDate": "2024-05-01",
+      "endDate": "Present",
+      "summary": "Course responsible for 'Physics of collisions of nuclei' (Master’s level) and 'Tools for simulation and data analysis' (Bachelor’s level). Supervision of a Bachelor’s student."
     },
     {
       "name": "STAR experiment, BNL, USA",

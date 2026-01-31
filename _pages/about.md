@@ -2,8 +2,8 @@
 layout: about
 title: home
 permalink: /
-subtitle: personal portfolio & blog
-subtitle2: postdoc at Lund U. | currently open to new opportunities
+subtitle: particle physics · data analysis
+subtitle2: postdoc @ CTU (Prague) | STAR & ALICE
 
 profile:
   align: right
@@ -15,13 +15,15 @@ profile:
     #<p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-hi, i'm particle physicist from Prague, living in Sweden.  
-\> i earned my PhD for experimental research on the strong force using the [ALICE](https://alice.cern) experiment at [CERN](https://home.cern).  
-\> enthusiastic about data analysis, statistics, AI, and democratisation of science.  
-\> i prioritise personal growth and meaningful work with a social impact.  
-\> volunteering with [Discover](https://discover.sk/en/), an educational project for youth.  
+hi, i'm a particle physicist based in Prague.  
+\> i did my PhD (and my first postdoc) at Lund University in Sweden.  
+\> since May 2024, i have been a postdoc at FNSPE CTU.  
+\> i work mostly on the [STAR](https://www.star.bnl.gov/) experiment, continuing my research on QCD and physics of heavy ion collisions.  
+\> i contribute to the [ALICE](https://alice.cern) experiment at [CERN](https://home.cern).  
+\> i care about robust data analysis, statistics, and transparent scientific workflows implementing industry-advanced innovations.  
+\> outside of research, i teach and mentor, and i volunteer with [Discover](https://discover.sk/en/), an educational project for youth.  
