@@ -1,77 +1,156 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Ing. Oliver Matonoha, PhD",
+    "title": "Researcher in Particle Physics (postdoc)",
+    "email": "oliver.matonoha@gmail.com",
+    "url": "https://matonoli.github.io",
+    "summary": "Researcher in physics, interested in open science, open knowledge, and AI.",
+    "publications": "180 citable publications, 2600+ citations, h-index 26. Main author of 8 publications. Published in journals such as Nature, Nature Physics, Physics Review Letters, European Physics Journal.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "a",
+      "postalCode": "a",
+      "city": "Malmö",
+      "countryCode": "SE",
+      "region": "a"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "oliver-matonoha-261608a7",
+        "url": "https://www.linkedin.com/in/oliver-matonoha-261608a7/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
+      "name": "ALICE experiment, CERN, Switzerland",
+      "position": "Researcher",
+      "startDate": "2018-11-01",
+      "endDate": "Present",
+      "summary": "Analyzing data from proton-proton collisions at the LHC, focusing on the search for strange particles and commissioning of the GEM detector technology."
+    },
+    {
+      "name": "ALICE experiment, CERN, Switzerland",
+      "position": "Ambassador for Sweden",
+      "startDate": "2019-04-01",
+      "endDate": "2023-11-19",
+      "summary": "Communicating the needs of Swedish junior scientists to the ALICE collaboration and vice versa."
+    },
+    {
+      "name": "CTU, Prague / LU, Sweden",
+      "position": "Teaching Assistant",
+      "startDate": "2016-09-01",
+      "endDate": "2022-09-01",
+      "summary": "Teaching practical classes in Physics/Particle Physics. At Lund University, also responsible for class format and preparation."
+    },
+    {
+      "name": "STAR experiment, BNL, USA",
+      "position": "Junior Researcher",
+      "startDate": "2016-06-01",
+      "endDate": "2021-06-01",
+      "summary": "Conducted data analysis on high-energy physics, specifically Upsilon meson production studies."
     }
   ],
-  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Lund University, Lund, Sweden",
+      "url": "https://www.lunduniversity.lu.se/",
+      "area": "Particle Physics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "startDate": "2018-01-01",
+      "endDate": "2023-06-01",
       "courses": [
-        "Theory of Relativity"
+        "Neural Networks",
+        "Scientific Computing",
+        "Teaching in Higher Education"
+      ]
+    },
+    {
+      "institution": "Czech Technical University, FNSPE, Prague, Czech Republic",
+      "url": "https://www.fjfi.cvut.cz/en",
+      "area": "Experimental Nuclear and Particle Physics",
+      "studyType": "Master's and Bachelor's",
+      "startDate": "2013-09-01",
+      "endDate": "2018-06-01",
+      "courses": [
+        "Functional Calculus",
+        "Quantum Field Theory",
+        "Bayesian Statistics"
       ]
     }
   ],
-  "awards": [
+  "skills": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    "name": "Coding",
+    "keywords": [
+      "C++",
+      "Python",
+      "Git",
+      "Linux",
+      "Fortran"]
+    },
+    {
+    "name": "DL/ML",
+    "keywords": [
+      "Keras",
+      "Pandas",
+      "Jupyter"]
+    },
+    {
+    "name": "Other",
+    "keywords": [
+      "Physics",
+      "Bayesian statistics",
+      "ROOT",
+      "HTML"]
+    },
+    {
+    "name": "Communication",
+    "keywords": [
+      "Public speaking",
+      "Scientific writing",
+      "Team Leadership"]
     }
   ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
+      "language": "Czech",
+      "fluency": "Native"
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Fluent (C2)"
+    },
+    {
+      "language": "German",
+      "fluency": "Advanced (B2)"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Beginner (B1)"
     }
   ],
-  "interests": [],
-  "references": [],
-  "projects": []
+  "volunteer": [
+    {
+      "organization": "Discover Academy, Prague",
+      "position": "Executive team member, Tutor",
+      "startDate": "2019-01-01",
+      "endDate": "Present",
+      "summary": "Annually contribute to creating summer schools for high schoolers, teaching 'AI in Particle Physics,' and serving as a school coordinator, ombudsperson, data analyst, and tutor guide."
+    },
+    {
+      "organization": "Equal Opportunities Committee at LU, Sweden",
+      "position": "Committee Member",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Represented PhDs on the departmental committee, focusing on promoting equal opportunities, gender equality, and counteracting discrimination."
+    },
+    {
+      "organization": "YODA, Discover mentorship, Prague",
+      "position": "Mentor",
+      "startDate": "2018-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Mentored high schoolers annually on personal and academic development."
+    }
+  ]
 }

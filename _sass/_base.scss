@@ -216,7 +216,7 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 2px solid var(--global-divider-color);
+  border-bottom: 2px solid var(--global-bg-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -258,13 +258,14 @@ blockquote {
     color: var(--global-text-color);
     span {
       color: var(--global-theme-color);
-      font-size: 1.5rem;
+      font-size: 1.65rem;
     }
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     font-size: 1.25rem;
+    padding: 0.3rem 0.55rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -275,7 +276,8 @@ blockquote {
     background-color: inherit;
     font-weight: bold;
     color: var(--global-theme-color);
-    font-size: 1.5rem;
+    font-size: 1.45rem;
+    padding: 0.3rem 0.5rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -283,14 +285,15 @@ blockquote {
   }
 
   .navbar-brand.social {
-    padding-bottom: 0;
-    padding-top: 0;
+    padding-bottom: 0.28rem;
+    padding-top: 0.27rem;
     font-size: 1.7rem;
 
     a {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
+        padding: 0rem 0.25rem;
       }
 
       &:hover {
@@ -356,15 +359,16 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
+        padding: 0rem 0.25rem;
       }
 
       &:hover {
@@ -479,7 +483,8 @@ footer.sticky-bottom {
   border-bottom: 2px solid var(--global-divider-color);
   text-align: left;
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -491,7 +496,7 @@ footer.sticky-bottom {
 .tag-category-list {
   border-bottom: 2px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0rem;
 
   ul {
     justify-content: center;
@@ -501,7 +506,7 @@ footer.sticky-bottom {
     li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 1rem;
+      padding: 0rem 1rem;
       color: var(--global-text-color);
     }
   }
@@ -641,7 +646,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -677,12 +682,24 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        position: relative;
         width: 100%;
         min-width: 80px;
         max-width: 200px;
       }
 
+      img {
+        filter: brightness(120%) grayscale(100%) saturate(100%) contrast(150%) blur(1px)
+      }
+      img:hover {
+        filter: brightness(100%) grayscale(0%) saturate(100%) contrast(100%) blur(0px);
+        transition: all 0.1s;
+      }
+
       .abbr {
+        position: absolute;
+        top: 2px;
+        left: -10px;
         height: 2rem;
         margin-bottom: 0.5rem;
 
@@ -691,6 +708,7 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+          color: white;
 
           a {
             color: white;
