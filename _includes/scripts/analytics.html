@@ -1,18 +1,20 @@
-{%- if site.enable_google_analytics -%}
+{%- assign ga_id = site.google_analytics | default: '' | strip -%}
+{%- if site.enable_google_analytics and ga_id != '' -%}
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_id }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){ window.dataLayer.push(arguments); }
     gtag('js', new Date());
-    gtag('config', '{{ site.google_analytics }}');
+    gtag('config', '{{ ga_id }}');
   </script>
 {%- endif -%}
-{%- if site.enable_cronitor_analytics -%}
+{%- assign cronitor_id = site.cronitor_analytics | default: '' | strip -%}
+{%- if site.enable_cronitor_analytics and cronitor_id != '' -%}
   <!-- Cronitor RUM -->
   <script async src="https://rum.cronitor.io/script.js"></script>
   <script>
     window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
-    cronitor('config', { clientKey: '{{site.cronitor_analytics}}' });
+    cronitor('config', { clientKey: '{{ cronitor_id }}' });
   </script>
 {%- endif -%}
